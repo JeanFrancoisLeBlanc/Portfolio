@@ -55,20 +55,20 @@ const userData = {
       "I'm an aspiring Front-End developer that loves designing products and web applications",
     description: [
       `I'm currently at the New Jersey Institute of Technology prepared to graduate in May 2023. I like to design, code, workout and watch thriller movies on my free time.`,
-      `I’ve been fascinated by technology for as long as I can remember, and I’ve developed and honed my skills while watching the advent of social media and the iPhone. Jailbreaking my iPod, editing my Tumblr page, and experimenting with 2G cellphones have only driven me to further my understanding of technology and the role it plays in both our lives and the future of humanity as a whole. I work to bring my expertise and passion to the table and provide an experience that is made just for you.`,
+      `I’ve been fascinated by technology for as long as I can remember, and I’ve developed and honed my skills while watching the advent of social media and smartphones. Jailbreaking my iPod, editing my Tumblr page, and experimenting with 2G cellphones have only driven me to further my understanding of technology and the role it plays in both our lives and the future of humanity as a whole. I work to bring my expertise and passion to the table and provide an experience that is made just for you.`,
       `When I'm not designing or coding, I'm looking for places to travel to and learn about other cultures. I hope to travel across the world in my life and collect Earth's elements, such as sand, from various regions`
     ],
     currentSchoolUrl: "https://www.njit.edu/",
     currentProject: "Pick Up",
     currentProjectUrl: "https://tailwindmasterkit.com",
   },
-  experience: [
+  education: [
     {
       title: "New Jersey Institute of Technology",
       company: "Human-Computer Interactions Major",
       year: "2020 - 2023",
       companyLink: "https://www.njit.edu/",
-    desc: "Currently learning skills to incorporate user experience design and psychology into building brilliant computer applications ",
+      desc: "Currently learning skills to incorporate user experience design and psychology into building brilliant computer applications ",
     },
     {
       title: "Middlesex Community College",
@@ -97,6 +97,8 @@ const userData = {
     "Overview",
     description:
       "Pick Up is a project I am currently working on myself, creating a collaborative and social media like experience for basketball",
+    process:
+    "Process"
   },
   resumeUrl:
     "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
