@@ -13,6 +13,7 @@ export default function Home({ repositories }) {
       title="Jean-François LeBlanc"
       description="Portfolio"
     >
+      <LatestCode repositories={repositories} />
       <Hero />
       
     </ContainerBlock>
