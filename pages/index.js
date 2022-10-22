@@ -7,6 +7,7 @@ import Hero from "../components/Hero";
 import getLatestRepos from "@lib/getLatestRepos";
 import userData from "@constants/data";
 
+
 export default function Home({ repositories }) {
   return (
     <ContainerBlock
@@ -22,11 +23,18 @@ export default function Home({ repositories }) {
 
 export const getServerSideProps = async () => {
   
-  let token = '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';
-  console.log('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');
+  let token = process.env.GITHUB_AUTH_TOKEN;
+  console.log(token);
 
   const repositories = await getLatestRepos(userData, token);
   console.log("REPOSITORIES", repositories);
+  console.log(token);
+
+  if(repositories == undefined){
+  return {
+    undefined:undefined,
+  }
+}
 
   return {
     props: {
