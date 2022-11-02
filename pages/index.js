@@ -8,37 +8,15 @@ import getLatestRepos from "@lib/getLatestRepos";
 import userData from "@constants/data";
 
 
-export default function Home({ repositories }) {
+export default function Home() {
   return (
     <ContainerBlock
       title="Jean-François LeBlanc"
       description="Portfolio"
     >
-      <LatestCode repositories={repositories} />
+      
       <Hero />
       
     </ContainerBlock>
   );
 }
-
-export const getServerSideProps = async () => {
-  
-  let token = process.env.GITHUB_AUTH_TOKEN;
-  console.log(token);
-
-  const repositories = await getLatestRepos(userData, token);
-  console.log("REPOSITORIES", repositories);
-  console.log(token);
-
-  if(repositories == undefined){
-  return {
-    undefined:undefined,
-  }
-}
-
-  return {
-    props: {
-      repositories 
-    },
-  };
-};
