@@ -54,9 +54,9 @@ const userData = {
     title:
       "I'm an aspiring Front-End developer that loves designing products and web applications",
     description: [
-      `I'm currently at the New Jersey Institute of Technology prepared to graduate in May 2023. I like to design, code, workout and watch thriller movies on my free time.`,
-      `I’ve been fascinated by technology for as long as I can remember, and I’ve developed and honed my skills while watching the advent of social media and smartphones. Jailbreaking my iPod, editing my Tumblr page, and experimenting with 2G cellphones have only driven me to further my understanding of technology and the role it plays in both our lives and the future of humanity as a whole. I work to bring my expertise and passion to the table and provide an experience that is made just for you.`,
-      `When I'm not designing or coding, I'm looking for places to travel to and learn about other cultures. I hope to travel across the world in my life and collect Earth's elements, such as sand, from various regions`
+      `I'm currently at the New Jersey Institute of Technology prepared to graduate in May 2023. I like to design, code, workout and watch suspense on my free time.`,
+      `I’ve been fascinated by technology for as long as I can remember, and I’ve developed and honed my skills while watching the advent of social media and smartphones. Jailbreaking my first iPod, replacing my RAM in my first laptop, and experimenting with 2G cellphones have only driven me to further my understanding of technology and the role it plays in both our lives and the future of humanity as a whole. I work to bring my expertise and passion to the table and provide an experience that is made just for you.`,
+      `Over the past few years I've been honing my skills as a Front-End Developer and UX Designer. `
     ],
     currentSchoolUrl: "https://www.njit.edu/",
     currentProject: "Pick Up",
@@ -89,7 +89,7 @@ const userData = {
       company: "Old Bridge High School, New Jersey",
       year: "2017",
       companyLink: "https://www.oldbridgeadmin.org/o/obhs",
-      desc: "Subjects being PCM - I barely survived with 93.6% marks aggregate. Flex fridays, fellas.",
+      desc: " ",
     },
   ],
   work: {
@@ -109,6 +109,10 @@ const userData = {
     github: "https://github.com/",
     facebook: "https://facebook.com/",
   },
+  artwork: {
+    
+  },
 };
+
 
 export default userData;

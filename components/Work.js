@@ -32,7 +32,7 @@ export default function Work() {
 
               </p>
               
-        <section className="bg-[#ADD8E6] h-48 rounded-xl drop-shadow-lg dark:bg-gray-800"  >  
+        <section className="bg-[#99c7f7] h-48 rounded-xl drop-shadow-lg dark:bg-gray-800"  >  
     
           <div className="text-center max-w-xs mx-auto pt-20">
               <p
@@ -44,39 +44,15 @@ export default function Work() {
               </p>
 
             </div>
+          <p>
+            {}
+          </p>
             
              
            </section> 
 
             </div>
           </div>
-          <section className="bg-white dark:bg-gray-800">
-          <div className="max-w-6xl mx-auto h-64 bg-white dark:bg-gray-800">
-              <div className="text-left pt-20 ">
-                <p className="text-xl md:text-4xl underline decoration-red-50">
-                  Research
-
-                </p>
-              <div className="text-xl">
-                <ul className="list-disc list-outside pt-4 leading-8">
-                  <li>User Research</li>
-                  <li>User Analytics</li>
-                  <li>User Painpoints</li>
-
-
-
-                </ul>
-
-
-              </div>
-              </div>
-            
-          </div>
-
-
-
-
-          </section>
           </section>
         
     
