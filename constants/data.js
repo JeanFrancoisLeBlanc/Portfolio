@@ -5,7 +5,7 @@ const userData = {
   avatarUrl: "LogoJeancopy2.png",
   aboutmepic: "aboutmepic.JPG",
   pickupui: "PickUpUI.png",
-  email: "jl237@njit.edu",
+  email: "jeanleblancjfl@gmail.com",
   phone: "732-439-2545",
   address: "Old Bridge, New Jersey",
   projects: [
@@ -75,14 +75,14 @@ const userData = {
       company: "Business Administrations Major",
       year: "2019",
       companyLink: "https://www.middlesexcollege.edu/",
-      desc: "Majored in Business Administration",
+      desc: "Learned how the economy works today and how it can work better in the future",
     },
     {
       title: "Brookdale Community College",
       company: "Business Marketing Major",
       year: "2017 - 2018",
       companyLink: "https://www.brookdalecc.edu/",
-      desc: "Majored in Business Marketing",
+      desc: "Learned how consumers and production interact and coincide",
     },
     {
       title: "High School",
@@ -110,6 +110,8 @@ const userData = {
     facebook: "https://facebook.com/",
   },
   artwork: {
+    imgUrl:"hounddogspink.png",
+    crossImg:"CrossPainting.svg"
     
   },
 };

@@ -9,8 +9,13 @@ export default function Artwork() {
             Artwork
           </h1>
         </div>
-        <div>
-            <img></img>
+        <div className="p-8 justify-self-center">
+            <img className="rounded-lg" src={userData.artwork.imgUrl}>
+
+            </img>
+            <img className="rounded-lg" src={userData.artwork.crossImg}>
+            
+            </img>
         </div>
     </section>
     );
