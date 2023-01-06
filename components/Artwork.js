@@ -13,10 +13,13 @@ export default function Artwork() {
             <img className="rounded-lg" src={userData.artwork.imgUrl}>
 
             </img>
+        <div className="my-8">
             <img className="rounded-lg" src={userData.artwork.crossImg}>
             
             </img>
+          
         </div>
+      </div>
     </section>
     );
 }

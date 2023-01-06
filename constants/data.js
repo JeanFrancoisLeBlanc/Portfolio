@@ -54,7 +54,7 @@ const userData = {
     title:
       "I'm an aspiring Front-End developer that loves designing products and web applications",
     description: [
-      `I'm currently at the New Jersey Institute of Technology prepared to graduate in May 2023. I like to design, code, workout and watch suspense on my free time.`,
+      `I'm currently at the New Jersey Institute of Technology prepared to graduate in May 2023. I like to design, code, workout and watch thriller movies on my free time.`,
       `I’ve been fascinated by technology for as long as I can remember, and I’ve developed and honed my skills while watching the advent of social media and smartphones. Jailbreaking my first iPod, replacing my RAM in my first laptop, and experimenting with 2G cellphones have only driven me to further my understanding of technology and the role it plays in both our lives and the future of humanity as a whole. I work to bring my expertise and passion to the table and provide an experience that is made just for you.`,
       `Over the past few years I've been honing my skills as a Front-End Developer and UX Designer. `
     ],
@@ -106,7 +106,7 @@ const userData = {
     instagram: "https://instagram.com/",
     twitter: "https://twitter.com/",
     linkedin: "https://linkedin.com/in/jean-francois-leblanc/",
-    github: "https://github.com/",
+    github: "https://github.com/JeanFrancoisLeBlanc",
     facebook: "https://facebook.com/",
   },
   artwork: {
